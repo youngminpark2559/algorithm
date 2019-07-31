@@ -55,38 +55,6 @@ import numpy as np
 # /home/young/Pictures/2019_07_31_17:48:34.png
 
 # ================================================================================
-# number_of_nodes=6
-
-# # c infinity: means there is no way to go to that node (not connected)
-# infinity=1000000000
-
-# visited=[False,False,False,False,False,False]
-
-# shortest_distance=[infinity,infinity,infinity,infinity,infinity,infinity]
-
-# # ================================================================================
-# # Initialize 2D array
-
-# table=[
-#   [0,2,5,1,infinity,infinity],
-#   [2,0,3,2,infinity,infinity],
-#   [5,3,0,3,1,5],
-#   [1,2,3,0,1,infinity],
-#   [infinity,infinity,1,1,0,2],
-#   [infinity,infinity,5,infinity,2,0],
-# ]
-
-# table_np=np.array(table)
-
-# # print("table_np",table_np)
-# # [[         0          2          5          1 1000000000 1000000000]
-# #  [         2          0          3          2 1000000000 1000000000]
-# #  [         5          3          0          3          1          5]
-# #  [         1          2          3          0          1 1000000000]
-# #  [1000000000 1000000000          1          1          0          2]
-# #  [1000000000 1000000000          5 1000000000          2          0]]
-
-# ================================================================================
 def return_index_of_node_which_has_smallest_cost():
   min=infinity
   node_index=0
