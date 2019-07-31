@@ -54,3 +54,20 @@ for one_number_idx in range(len(numbers_unsorted)):
 
 print("numbers_ascending_sorted",numbers_ascending_sorted)
 # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# ================================================================================
+# Time complexity
+
+# check: 1 to 10, 10 times
+# check: 2 to 10, 9 times
+# check: 3 to 10, 8 times
+# ...
+# check: 9 to 10, 2 times
+# check: 10 to 10, 1 times
+
+# 10+9+...+1=10*(10+1)/2=55 number of comparison computations
+
+# above algorithm's computation: N(N+1)/2 \sim N*N
+
+# ================================================================================
+# O(N^2): slow, inefficient algorithm
